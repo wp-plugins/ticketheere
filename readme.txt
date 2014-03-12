@@ -14,6 +14,7 @@ Need to sell tickets for your event? TicketHeere will save your day! This plugin
 For more information about TicketHeere, please visit [www.ticketheere.nl](http://www.ticketheere.nl) (Dutch only).
 
 **Dutch Description**
+
 TicketHeere is de online bezoekersregistratie dienst van DeJonckHeere. Met deze plugin van TicketHeere integreer je eenvoudig je ticket webshop in je WordPress website.
 Voor meer informatie over de diensten van DeJonckHeere en alle functies en mogelijkheden van TicketHeere kijk je op [www.ticketheere.nl](http://www.ticketheere.nl). 
 
