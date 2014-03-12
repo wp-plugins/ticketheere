@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TicketHeere\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-12 11:25+0100\n"
+"PO-Revision-Date: 2014-03-12 11:29+0100\n"
+"Last-Translator: Bart Pluijms <info@geev.nl>\n"
+"Language-Team: Geev <info@geev.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/settings.php:11
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt onvoldoende rechten om deze pagina te bekijken."
+
+#: ../admin/settings.php:32
+msgid "TicketHeere settings"
+msgstr "TicketHeere instellingen"
+
+#: ../admin/settings.php:34
+msgid "Your settings have been saved."
+msgstr "Je instellingen zijn bewaard."
+
+#: ../admin/settings.php:43
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: ../admin/settings.php:48
+msgid "Organization alias:"
+msgstr "Organisatie alias:"
+
+#: ../admin/settings.php:53
+msgid "Organization alias for your organization."
+msgstr "Organisatie alias voor jouw organisatie."
+
+#: ../admin/settings.php:59
+msgid "Event alias:"
+msgstr "Evenement alias:"
+
+#: ../admin/settings.php:64
+msgid "Event alias for the event you want to show."
+msgstr "Alias voor het evenement dat je wilt tonen."
+
+#: ../admin/settings.php:70
+msgid "Channel code:"
+msgstr "Kanaal code:"
+
+#: ../admin/settings.php:75
+msgid "Leave empty to show default channel."
+msgstr "Laat leeg om het standaard kanaal te tonen."
+
+#: ../admin/settings.php:81
+msgid "Save settings"
+msgstr "Instellingen opslaan"
+
+#: ../admin/settings.php:88
+msgid "Instructions"
+msgstr "Uitleg"
+
+#: ../admin/settings.php:93
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: ../admin/settings.php:96
+msgid ""
+"Use shortcode <code>[ticketheere]</code> to display your default TicketHeere "
+"ticketshop"
+msgstr ""
+"Gebruik shortcode <code>[ticketheere]</code> om je standaard TicketHeere "
+"webshop te tonen."
+
+#: ../admin/settings.php:97
+msgid "You can use variables to display another ticketshop or channel."
+msgstr ""
+"Je kan variabelen gebruiken om een andere ticket webshop of kanaal te tonen."
+
+#: ../admin/settings.php:97
+msgid ""
+"For example: <code>[ticketheere org=\"organization\" ev=\"event\" med="
+"\"456sdf789sdf456\"]</code>"
+msgstr ""
+"Bijvoorbeeld: <code>[ticketheere org=\"organization\" ev=\"event\" med="
+"\"456sdf789sdf456\"]</code>"
+
+#: ../admin/settings.php:102
+msgid "Widget:"
+msgstr "Widget:"
+
+#: ../admin/settings.php:105
+msgid ""
+"Use a widget to display your default TicketHeere ticketshop in a widget area."
+msgstr ""
+"Gebruik een widget om je standaard TicketHeere webshop te tonen in een "
+"widget area."
+
+#: ../admin/settings.php:106
+msgid "You can show only <strong>one TicketHeere shop</strong> on a page."
+msgstr "Je kan maar <strong>1 TicketHeere shop</strong> tonen per pagina."
+
+#: ../admin/settings.php:117
+msgid "Need Support?"
+msgstr "Hulp nodig?"
+
+#: ../admin/settings.php:119
+msgid "If you are having problems with this plugin, please contact us via our "
+msgstr ""
+"Wanneer je hulp nodig hebt met deze plugin, neem je contact met ons op via "
+"onze "
+
+#: ../admin/settings.php:120
+msgid ""
+"We will try to support you as soon as possible, mostly within a couple of "
+"hours."
+msgstr ""
+"We doen ons best om je zo snel mogelijk te helpen, meestal binnen een paar "
+"uur."
+
+#: ../admin/settings.php:124
+msgid "Let's get social"
+msgstr "Let's get social"
+
+#: ../admin/settings.php:145
+msgid "Watch us at YouTube"
+msgstr "Bekijk ons YouTube kanaal"
+
+#: ../admin/settings.php:145
+msgid "or"
+msgstr "of"
+
+#: ../admin/settings.php:145
+msgid "Rate the plugin 5&#9733; on WordPress.org"
+msgstr "Waardeer deze plugin 5&#9733; op WordPress.org"
+
+#: ../ticketheere.php:22
+msgid "Displays your TicketHeere webshop"
+msgstr "Toont je TicketHeere webshop"
+
+#: ../ticketheere.php:23
+msgid "TicketHeere Widget"
+msgstr "TicketHeere Widget"
+
+#: ../ticketheere.php:30
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../ticketheere.php:33
+#, php-format
+msgid "Please config your TicketHeere webshop in %s."
+msgstr "Beheer a.u.b. je TicketHeere webshop via %s."
+
+#: ../ticketheere.php:33
+msgid "plugin settings"
+msgstr "de plugin instellingen"
+
+#: ../ticketheere.php:117
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../ticketheere.php:118
+msgid "Support"
+msgstr "Hulp nodig?"
+
+#: ../ticketheere.php:130
+msgid "TicketHeere"
+msgstr "TicketHeere"
