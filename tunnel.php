@@ -1,5 +1,5 @@
 <?
-$url = 'https://shop.ticketheere.nl/demo/'.$_GET['url'];
+$url = 'https://shop.ticketheere.nl/'.$_GET['url'];
 
 if($_GET['type']!='post') {
     print file_get_contents($url);

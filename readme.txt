@@ -5,7 +5,7 @@ Author URI: http://wordpress.geev.nl
 Tags: Event support, event tickets
 Requires at least: 3.8
 Tested up to: 3.8.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2
 
 This plugin adds a widget and a shortcode to WP for easy integration of TicketHeere - Event ticketing
@@ -14,7 +14,6 @@ Need to sell tickets for your event? TicketHeere will save your day! This plugin
 For more information about TicketHeere, please visit [www.ticketheere.nl](http://www.ticketheere.nl) (Dutch only).
 
 **Dutch Description**
-
 TicketHeere is de online bezoekersregistratie dienst van DeJonckHeere. Met deze plugin van TicketHeere integreer je eenvoudig je ticket webshop in je WordPress website.
 Voor meer informatie over de diensten van DeJonckHeere en alle functies en mogelijkheden van TicketHeere kijk je op [www.ticketheere.nl](http://www.ticketheere.nl). 
 
@@ -32,6 +31,9 @@ Please backup first.
 
 == Changelog ==
 ***TicketHeere***
+= 2014.03.30 version 0.2 =
+* Excluded ticket js for better support with older themes
+* Fixed some errors while in DEMO mode
 
 = 2014.03.15- version 0.1 =
 * First release

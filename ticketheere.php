@@ -5,10 +5,10 @@ Plugin URI: http://wordpress.org/extend/plugins/ticketheere/
 Description: This plugin adds a widget and a shortcode to WP for easy integration of TicketHeere - Event ticketing
 Author: DeJonckHeere
 Author URI: http://www.dejonckheere.nl/
-Version: 0.1
+Version: 0.2
 */
 
-define('DJHSET','demo/');
+define('DJHSET','');
 
 
 /**
@@ -86,18 +86,16 @@ function TicketHeereShortcode($atts) {
 				'set'=>DJHSET,
 			)
 	);
-	
-    return '<div id=jonckheere></div>';
+	return '<div id=jonckheere></div>';
 }
 add_shortcode('ticketheere', 'TicketHeereShortcode');
-
 
 /**
  * Insert required scripts
  */
 function TicketHeereScripts() {
 	if(get_option( 'ticketheere_org' )!="" && get_option( 'ticketheere_ev' )!="") {
-		wp_register_script( 'ticketheere-script', plugins_url( '/assets/js/ticketheere.js', __FILE__ ) );
+		wp_register_script('ticketheere-script', plugins_url( '/assets/js/ticketheere.js', __FILE__ ),'0.2',false);
 		wp_localize_script( 'ticketheere-script', 'djh',
 			array(
 				'org'=>get_option( 'ticketheere_org' ),
@@ -126,7 +124,7 @@ add_filter("plugin_action_links_$plugin", 'TicketHeereLinks' );
 /** 
  * Settings menu
  */
-function woocommerce_umf_admin_menu() {
+function ticketheere_menu() {
 	$page = add_options_page(__( 'TicketHeere', 'ticketheere' ), __( 'TicketHeere', 'ticketheere' ), 'manage_options', 'ticketheere', 'ticketheere_page' );
 }
 
@@ -137,7 +135,7 @@ add_action( 'init', 'TicketHeereScripts' );
 add_action( 'widgets_init', create_function('', 'return register_widget("TicketHeereWidget");') );
 
 if(is_admin()) {
-	add_action('admin_menu', 'woocommerce_umf_admin_menu');
+	add_action('admin_menu', 'ticketheere_menu');
 	require_once('admin/settings.php');
 }
 ?>
