@@ -4,7 +4,7 @@ Plugin URI: http://wordpress.org/extend/plugins/ticketheere/
 Author URI: http://wordpress.geev.nl
 Tags: Event support, event tickets
 Requires at least: 3.8
-Tested up to: 3.8.1
+Tested up to: 4.0-beta3
 Stable tag: 0.2
 License: GPLv2
 
@@ -15,7 +15,7 @@ For more information about TicketHeere, please visit [www.ticketheere.nl](http:/
 
 **Dutch Description**
 TicketHeere is de online bezoekersregistratie dienst van DeJonckHeere. Met deze plugin van TicketHeere integreer je eenvoudig je ticket webshop in je WordPress website.
-Voor meer informatie over de diensten van DeJonckHeere en alle functies en mogelijkheden van TicketHeere kijk je op [www.ticketheere.nl](http://www.ticketheere.nl). 
+Voor meer informatie over de diensten van DeJonckHeere en alle functies en mogelijkheden van TicketHeere kijk je op [www.ticketheere.nl](http://www.ticketheere.nl).
 
 == Installation ==
 
