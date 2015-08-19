@@ -4,8 +4,8 @@ Plugin URI: http://wordpress.org/extend/plugins/ticketheere/
 Author URI: http://wordpress.geev.nl
 Tags: Event support, event tickets
 Requires at least: 3.8
-Tested up to: 4.0
-Stable tag: 0.2
+Tested up to: 4.3
+Stable tag: 0.3
 License: GPLv2
 
 This plugin adds a widget and a shortcode to WP for easy integration of TicketHeere - Event ticketing
@@ -31,6 +31,9 @@ Please backup first.
 
 == Changelog ==
 ***TicketHeere***
+= 2015.08.11 version 0.3 =
+* Fixed PHP 4 constructor style in widget
+
 = 2014.03.30 version 0.2 =
 * Excluded ticket js for better support with older themes
 * Fixed some errors while in DEMO mode

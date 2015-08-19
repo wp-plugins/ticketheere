@@ -5,7 +5,7 @@ Plugin URI: http://wordpress.org/extend/plugins/ticketheere/
 Description: This plugin adds a widget and a shortcode to WP for easy integration of TicketHeere - Event ticketing
 Author: DeJonckHeere
 Author URI: http://www.dejonckheere.nl/
-Version: 0.2
+Version: 0.3
 */
 
 define('DJHSET','');
@@ -17,10 +17,10 @@ define('DJHSET','');
 class TicketHeereWidget extends WP_Widget
 {
 	// Register Widget
-	function TicketHeereWidget()
+	function __construct()
 	{
 		$widget_ops = array('classname' => 'TicketHeereWidget', 'description' => __( 'Displays your TicketHeere webshop', 'ticketheere' ) );
-		$this->WP_Widget('TicketHeereWidget', __( 'TicketHeere Widget', 'ticketheere' ), $widget_ops);
+		parent::__construct('TicketHeereWidget', __( 'TicketHeere Widget', 'ticketheere' ), $widget_ops);
 	}
 	
 	function form($instance)
